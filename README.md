@@ -1,2 +1,4 @@
 # jobsScraper
-Python and Scrapy - Create a list of latest jobs posted matching what I'm looking for (from Indeed)
+Python and Scrapy
+Pulls a list of jobs from Indeed matching specifications - Location, Title, Date.
+Outputs the list to a spreadsheet.
