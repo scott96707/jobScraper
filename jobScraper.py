@@ -3,37 +3,35 @@ import csv
 import requests
 from bs4 import BeautifulSoup
 
-page = requests.get('https://web.archive.org/web/20121007172955/https://www.nga.gov/collection/anZ1.htm')
+page = requests.get('https://www.indeed.com/jobs?q=Python&l=Denver%2C+CO&sort=date')
 
 soup = BeautifulSoup(page.text, 'html.parser')
 
-# Remove bottom links
-last_links = soup.find(class_='AlphaNav')
-last_links.decompose()
+f = csv.writer(open('Jobs.csv', 'w'))
+f.writerow(['Job', 'Company'])
 
-f = csv.writer(open('z-artist-names.csv', 'w'))
-f.writerow(['Name', 'Link'])
-
-artist_name_list = soup.find(class_='BodyText')
-artist_name_list_items = artist_name_list.find_all('a')
+#job_name_list = soup.find(id="resultsCol")
+#job_name_list_items = job_name_list.find_all('h2', class_="jobtitle")
 
 pages = []
 
-for i in range(1, 5):
-    url = 'https://web.archive.org/web/20121007172955/https://www.nga.gov/collection/anZ' + str(i) + '.htm'
+for i in range(0, 30, 10):
+    url = 'https://www.indeed.com/jobs?q=Python&l=Denver%2C+CO&sort=date&start=' + str(i)
     pages.append(url)
 
 for item in pages:
     page = requests.get(item)
     soup = BeautifulSoup(page.text, 'html.parser')
-
-    last_links = soup.find(class_='AlphaNav')
-    last_links.decompose()
-
-    artist_name_list = soup.find(class_='BodyText')
-    artist_name_list_items = artist_name_list.find_all('a')
-
-    for artist_name in artist_name_list_items:
-        names = artist_name.contents[0]
-        links = 'https://web.archive.org' + artist_name.get('href')
-        f.writerow([names, links])
+    
+    job_name_list = soup.find(id="resultsCol")
+    job_name_list_items = job_name_list.find_all('h2', class_="jobtitle")
+    
+    for job in job_name_list_items:
+        print(job.a.text())
+    '''
+    for job_name in job_name_list_items:
+        names = job_name.contents[0]
+        #companies = 'https://web.archive.org' + job_name.get('href')
+        print(names)
+        #f.writerow([names])
+        '''
