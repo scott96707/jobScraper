@@ -8,10 +8,7 @@ page = requests.get('https://www.indeed.com/jobs?q=Python&l=Denver%2C+CO&sort=da
 soup = BeautifulSoup(page.text, 'html.parser')
 
 f = csv.writer(open('Jobs.csv', 'w'))
-f.writerow(['Job', 'Company'])
-
-#job_name_list = soup.find(id="resultsCol")
-#job_name_list_items = job_name_list.find_all('h2', class_="jobtitle")
+f.writerow(['Number', 'Job', 'Company', 'Location', 'URL'])
 
 pages = []
 
@@ -23,15 +20,21 @@ for item in pages:
     page = requests.get(item)
     soup = BeautifulSoup(page.text, 'html.parser')
     
-    job_name_list = soup.find(id="resultsCol")
-    job_name_list_items = job_name_list.find_all('h2', class_="jobtitle")
-    
-    for job in job_name_list_items:
-        print(job.a.text())
-    '''
+    card_list = soup.find(id="resultsCol")
+    job_name_list_items = card_list.find_all('h2', class_="jobtitle")
+    company_name_list_items = card_list.find_all('span', class_="company")
+
+    #This just repeats 1-10, need to fix to go past 10 later
+    for j in range(1, len(job_name_list_items)+1):
+        f.writerow([j])
+
     for job_name in job_name_list_items:
-        names = job_name.contents[0]
-        #companies = 'https://web.archive.org' + job_name.get('href')
-        print(names)
-        #f.writerow([names])
-        '''
+        names = job_name.a.get_text()        
+        f.writerow([names])
+        
+
+    for company_name in company_name_list_items:
+        try:
+            print(company_name.a.get_text())
+        except:
+            print(company_name.get_text())
