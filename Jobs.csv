@@ -1,61 +1,49 @@
-Number,Job,Company,Location,URL
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-Cloud Developer
-University Programs: Software Engineer I
-2019 Summer Intern: Wireless R&D IoT Engineer
-Signal Processing Software Developer
-Application Security Engineer
-Systems Administrator – Linux / AWS
-Cloud DevOps Engineer
-"Site Reliability Engineer, Cloud Operations"
-Cloud Software Engineer
-QA Engineer
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-QA Engineer
-Sustainability Engineering Intern - 2019
-"Associate Consultant, Penetration Tester"
-"Consultant, Penetration Tester"
-Software Engineering Asc
-Software Engineer
-Solutions Architect
-DevOps Engineer
-Cyber Systems Engineer 2/3
-"Senior Consultant, Penetration Tester"
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-E&G Software Innovation Lead
-Sr Software Engineer - IoT
-Ground Software Architect
-Senior Marketing Analyst
-Web Services Consultant (Contract - CO)
-Senior Software Engineer IC4
-Sr. Android Software Engineer
-Embedded Senior Software Engineer IC4
-"Senior Security Engineer, Tooling and Automation"
-Flight Software Engineer
+Job Title,Company,Location,Posted Date,Summary,Link
+Scientific Programmer,University of Colorado Boulder,"Boulder, CO 80303 (Southeast Boulder area)",Just posted,Expertise in Python and the latest Javascript frameworks. We are seeking a programmer for scientific application development....,https://www.indeed.com/viewjob?jk=422baeb99543d992
+Python Developer,Blackstone Technology Group,"Englewood, CO",Just posted,"Python development experience. Solid knowledge of Python best-practices, task/job queue systems, threading and package architecture....",https://www.indeed.com/viewjob?jk=7e83ad66749e2312
+Software Development Engineer in Test,Amazon.com,"Denver, CO",Just posted,"Experience developing automation in at least one of OO languages - Java, C#/C++, Python. The Amazon Devices team is looking for the best Software Development...",https://www.indeed.com/viewjob?jk=de87ed5a91378e1a
+Unix/Linux System Administrator,Technosoft Corporation.,"Boulder, CO",Just posted,"Python bash scripting:. Scripting Experience of some kind ( Bash, Python, PowerShell, Perl, etc. ). Unix/Linux System Admin*....",https://www.indeed.com/viewjob?jk=689266b331d648f4
+DevOps Engineer / Linux System Administrator,"Ross Search Partners, LLC","Highlands Ranch, CO",Just posted,Position: Linux Systems Admin / DevOps Engineer Location: Highlands Ranch We have an excellent opportunity for a Linux/TechOps engineer with our client...,https://www.indeed.com/viewjob?jk=244c5a7e7f2bde78
+AWS Platform Engineer,Turnberry Solutions,"Englewood, CO 80112",Just posted,"AWS Platform Engineer in Englewood, CO 80112 Interview Logistics: phone then face to face Required Skills Set: Years of Experience: 5+ years of experience...",https://www.indeed.com/viewjob?jk=5f2ec4d5e2005101
+Software Engineer,"Contract Professionals, Inc.","Aurora, CO",Just posted,US CITIZENSHIP REQUIREMENT: This assignment is a US Government Contract which requires all applicants to be US Citizens. NO SUBCONTRACT REQUIREMENT: No...,https://www.indeed.com/viewjob?jk=0bbbcc4aebeeea6b
+DevOps Architect,"The Computer Merchant, Ltd","Aurora, CO 80011 (Norfolk Glen area)",Just posted,Jenkins or similar pipeline orchestration tools • Knowledge of S2P software tools and frameworks • Python • Fortran • X-Midas • NextMidas • Midas2k • Digital...,https://www.indeed.com/viewjob?jk=08a5352addf357a7
+skill,Ace Technologies,"Denver, CO",Today,Job Classification: developer: applications Location: Denver(Colorado) Skills: Micro Service Developer Description: Micro Service Developer Primary Skills...,https://www.indeed.com/viewjob?jk=de09dcae2fe7d349
+subject matter expert & workshop facilitator,The Adecco Group,"Denver, CO",Today,"GA is seeking subject matter experts to facilitate workshops in the areas of data science, ruby on rails, python, SQL, digital marketing, analytics, mobile...",https://www.indeed.com/viewjob?jk=68e2043a46b61846
+Senior Python Developer - Machine Learning,Pearson,"Centennial, CO",No date listed,Expertise in Python 3.6. Senior Python Developer - Machine Learning. We are looking for a Senior Python Developer with:....,https://www.indeed.com/viewjob?jk=75f78a8d2912c681
+Sr. Python Developer,"Encode, Inc.","Boulder, CO",No date listed,8-10 years Python experience. Good hands-on experience with Python is a must*. Certified Associate in Python Programming (PCAP) is highly desired....,https://www.indeed.com/viewjob?jk=485c1f8552e180d8
+ETL Test Automation Engineer,BETSOL,"Broomfield, CO 80021",No date listed,Familiar with python and shell scripting. ETL Test Automation Engineer*....,https://www.indeed.com/viewjob?jk=423c9c999889dc29
+Python Developer and Test Case Developer,Disys,"Englewood, CO 80111",No date listed,Our Telecommunications Client is looking for both Python developers and Python Test Case developers on a long term contract basis....,https://www.indeed.com/viewjob?jk=021a69ce5c0c1f7c
+SW Eng 3/ 1708BR ULA,United Launch Alliance (ULA),"Denver, CO",No date listed,"Extensive Experience Scripting with Perl, Python, Ruby, AWK or Shell. The ULA team is working on products that will change how we think about space flight....",https://www.indeed.com/viewjob?jk=510be2aa3e2b6d92
+Python Developer,Indeed Prime,"Denver, CO",No date listed,Indeed Prime is a free service that connects qualified job-seekers (that's you) with top companies hiring tech roles. With one application you can be...,https://www.indeed.com/viewjob?jk=d146f28cb2392f3c
+Senior Python Developer - Machine Learning,Pearson,"Centennial, CO",No date listed,Expertise in Python 3.6. Senior Python Developer - Machine Learning. We are looking for a Senior Python Developer with:....,https://www.indeed.com/viewjob?jk=75f78a8d2912c681
+Sr. Python Developer,"Encode, Inc.","Boulder, CO",No date listed,8-10 years Python experience. Good hands-on experience with Python is a must*. Certified Associate in Python Programming (PCAP) is highly desired....,https://www.indeed.com/viewjob?jk=485c1f8552e180d8
+ETL Test Automation Engineer,BETSOL,"Broomfield, CO 80021",No date listed,Familiar with python and shell scripting. ETL Test Automation Engineer*....,https://www.indeed.com/viewjob?jk=423c9c999889dc29
+SW Eng 3/ 1708BR ULA,United Launch Alliance (ULA),"Denver, CO",No date listed,"Extensive Experience Scripting with Perl, Python, Ruby, AWK or Shell. The ULA team is working on products that will change how we think about space flight....",https://www.indeed.com/viewjob?jk=510be2aa3e2b6d92
+Python Developer,Indeed Prime,"Denver, CO",No date listed,Indeed Prime is a free service that connects qualified job-seekers (that's you) with top companies hiring tech roles. With one application you can be...,https://www.indeed.com/viewjob?jk=d146f28cb2392f3c
+Python Developer and Test Case Developer,Disys,"Englewood, CO 80111",No date listed,Our Telecommunications Client is looking for both Python developers and Python Test Case developers on a long term contract basis....,https://www.indeed.com/viewjob?jk=021a69ce5c0c1f7c
+University Programs: Software Engineer I,Raytheon,"Aurora, CO 80011 (Norfolk Glen area)",Today,"Experience with scripting is a plus (Ruby, Perl, Python, PHP, etc.). Bring your talents to Team Raytheon!...",https://www.indeed.com/viewjob?jk=1f1b0dc14a2e9b08
+subject matter expert & workshop facilitator,The Adecco Group,"Denver, CO",Today,"GA is seeking subject matter experts to facilitate workshops in the areas of data science, ruby on rails, python, SQL, digital marketing, analytics, mobile...",https://www.indeed.com/viewjob?jk=68e2043a46b61846
+Cloud Developer,Imagination Software Technologies,"Highlands Ranch, CO",Today,"The candidate may also be comfortable in any other server side languages like java-script (node.js), python, php, go etc., and should highlight their level of...",https://www.indeed.com/viewjob?jk=93326660ce5ac959
+Security Engineer - DevSecOps Engineer,Splunk,"Boulder, CO",Today,"Expertise in software development using C/C++, Python, JavaScript or Go. Security Engineer - DevSecOps Engineer....",https://www.indeed.com/viewjob?jk=5977b7c101da88ff
+data science instructor,The Adecco Group,"Denver, CO",Today,"You are very strong in SQL, Python, and related Python libraries (pandas, numpy). You have proficiency with NLP python libraries such as NLTK;...",https://www.indeed.com/viewjob?jk=90f2a8a12462dcc7
+Sr. Micro Services Technical Lead,Wenso Ltd,"Denver, CO",Today,"Job Summary Sr. Micro Services Technical Lead Immediate need for Sr. Micro Services Technical Lead to be based out of our Denver, CO location....",https://www.indeed.com/viewjob?jk=a599311b98e95dde
+2019 Summer Intern: Wireless R&D IoT Engineer,Spectrum,"Greenwood Village, CO",Today,"C, C++, Java, JavaScript, Python. Wireless access technology and EPC familiarity - Different Analytics algorithms and techniques, tools (Weka, R, Python Scikit...",https://www.indeed.com/viewjob?jk=20b6032f3ae64674
+Signal Processing Software Developer,CACI,"Aurora, CO 80010 (Delmar Parkway area)",Today,"3+ years programming skills in C, C++, and Python. What You’ll Get to Do:....",https://www.indeed.com/viewjob?jk=6ffdbf19b9641790
+Cloud DevOps Engineer,Email on Acid,"Denver, CO",Today,"Build your Career with Us Email on Acid’s mission is to simplify the complex task of email testing through an exclusive suite of innovative tools, education...",https://www.indeed.com/viewjob?jk=be859d3a808080ca
+Systems Administrator – Linux / AWS,Hitachi Vantara,"Englewood, CO",Today,"Python, Power-CLI or PowerShell, Ruby, Linux Shell Scripting, or comparable scripting language. Hitachi Vantara combines technology, intellectual property and...",https://www.indeed.com/viewjob?jk=bffc5f6fad7cda47
+SW Eng 3/ 1708BR ULA,United Launch Alliance (ULA),"Denver, CO",No date listed,"Extensive Experience Scripting with Perl, Python, Ruby, AWK or Shell. The ULA team is working on products that will change how we think about space flight....",https://www.indeed.com/viewjob?jk=510be2aa3e2b6d92
+Senior Python Developer - Machine Learning,Pearson,"Centennial, CO",No date listed,Expertise in Python 3.6. Senior Python Developer - Machine Learning. We are looking for a Senior Python Developer with:....,https://www.indeed.com/viewjob?jk=75f78a8d2912c681
+Python Developer,Indeed Prime,"Denver, CO",No date listed,Indeed Prime is a free service that connects qualified job-seekers (that's you) with top companies hiring tech roles. With one application you can be...,https://www.indeed.com/viewjob?jk=d146f28cb2392f3c
+"Site Reliability Engineer, Cloud Operations",Ping Identity,"Denver, CO 80202 (Lodo area)",Today,"At Ping Identity, we're changing the way people think about enterprise security technology. With our innovative Identity Defined Security platform, we're...",https://www.indeed.com/viewjob?jk=e221ab249b023693
+Cloud Software Engineer,SAGE Black,"Denver, CO",Today,"Experience in Java, C++, C# or Python. Experience with high-level languages such as Java, C++, Python. Cloud Software Engineer....",https://www.indeed.com/viewjob?jk=bd02351208fc32d0
+QA Engineer,BioTRUST Nutrition,"Golden, CO 80401",Today,Basic knowledge of object-oriented principles and basic programming language skills such as Python or Javascript....,https://www.indeed.com/viewjob?jk=b7f9111db445167e
+QA Engineer,BIO Trust,"Golden, CO 80401",Today,Basic knowledge of object-oriented principles and basic programming language skills such as Python or Javascript....,https://www.indeed.com/viewjob?jk=a5600a96d146cf72
+Sustainability Engineering Intern - 2019,WSP USA,"Boulder, CO",Today,Python or Grasshopper). Be involved in projects with our Built Ecology Team and be a part of a growing organization that meets our client’s objectives and...,https://www.indeed.com/viewjob?jk=4c45ba1e0a3c2f6f
+"Associate Consultant, Penetration Tester","Coalfire Systems, Inc.","Centennial, CO",Today,"Hands-on experience with two or more scripting languages such as Python, Powershell, Shell, or Ruby. Associate Consultant, Penetration Tester....",https://www.indeed.com/viewjob?jk=44095d74897e7c00
+Software Engineering Asc,LOCKHEED MARTIN CORPORATION,"Littleton, CO 80127",Today,"JAVA, Python, C, C++, C#, Labview, lab windows. At the dawn of a new space age, Lockheed Martin is a pioneer, partner, innovator and builder....",https://www.indeed.com/viewjob?jk=5d64c10970306990
+"Consultant, Penetration Tester","Coalfire Systems, Inc.","Centennial, CO",Today,"Hands-on experience with two or more scripting languages such as Python, Powershell, Shell, or Ruby. Consultant, Penetration Tester....",https://www.indeed.com/viewjob?jk=d79954dae411f9b7
+Software Engineer,Syncroness,"Centennial, CO",Today,"Syncroness, Inc. Job Title: Software Engineer – RS3 Location: Centennial, CO Who is Syncroness? Syncroness provides inspired solutions to highly complex...",https://www.indeed.com/viewjob?jk=6453df84f1c7e1e7
+DevOps Engineer,Syncroness,"Centennial, CO",Today,"Extensive Experience Scripting with Perl, Python, Ruby, AWK or Shell. DevOps Engineer RS3....",https://www.indeed.com/viewjob?jk=57f053620ca603c6
+Sr. Python Developer,"Encode, Inc.","Boulder, CO",No date listed,8-10 years Python experience. Good hands-on experience with Python is a must*. Certified Associate in Python Programming (PCAP) is highly desired....,https://www.indeed.com/viewjob?jk=485c1f8552e180d8
+ETL Test Automation Engineer,BETSOL,"Broomfield, CO 80021",No date listed,Familiar with python and shell scripting. ETL Test Automation Engineer*....,https://www.indeed.com/viewjob?jk=423c9c999889dc29
+Python Developer and Test Case Developer,Disys,"Englewood, CO 80111",No date listed,Our Telecommunications Client is looking for both Python developers and Python Test Case developers on a long term contract basis....,https://www.indeed.com/viewjob?jk=021a69ce5c0c1f7c
