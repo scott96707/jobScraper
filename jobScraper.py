@@ -16,7 +16,7 @@ class JobScraper:
         try:
             JobScraper.number_of_pages = (int(input("Enter the number of pages: "))) * 10
         except ValueError:
-            print("Invalid number, try again.")
+            print("Input an integer. Try again.")
             exit()
         if JobScraper.number_of_pages > 200:
             JobScraper.number_of_pages //= 10
@@ -34,7 +34,11 @@ class JobScraper:
         f = csv.writer(open('Jobs.csv', 'w'))
         f.writerow(['Job Title', 'Company', 'Location', 'Posted Date', 'Summary', 'Link'])
         for item in JobScraper.pages:
-            page = requests.get(item)
+            try:
+                page = requests.get(item)
+            except requests.ConnectionError: 
+                print("Connection Error. Check your internet connection.")
+                exit()
             soup = BeautifulSoup(page.text, 'html.parser')
             all_job_posts = soup.find(id="resultsCol")
             cards = all_job_posts.find_all(class_="jobsearch-SerpJobCard")
