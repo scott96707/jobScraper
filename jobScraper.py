@@ -1,15 +1,15 @@
 #! /usr/bin/python3
 
 
-import time, csv, requests, urllib, sys
+import time, csv, requests, urllib, sys, os
 from bs4 import BeautifulSoup
 
 class JobScraper:
 
-    def __init__(self, keywords):
+    def __init__(self, keywords, number_of_pages=2, pages=[]):
         self.keywords = keywords
-        self.number_of_pages = 2
-        self.pages = []
+        self.number_of_pages = number_of_pages
+        self.pages = pages
 
     #def getKeywords(self):
     #    JobScraper.keywords = urllib.parse.quote_plus(input('Enter search terms: '))
@@ -29,7 +29,7 @@ class JobScraper:
 
     def getPages(self):
         # Gather URLs for each page
-        for i in range(0, self.number_of_pages, 10):
+        for i in range(0, self.number_of_pages):
             url = 'https://www.indeed.com/jobs?q='+ self.keywords +\
                 '&l=Lone+Tree%2C+CO&radius=15&sort=date&start=' + str(i)
             self.pages.append(url)
@@ -70,7 +70,8 @@ class JobScraper:
                 summary = posts.find('span', class_="summary").get_text().strip()
                 link_root = posts.get('data-jk')
                 link = "https://www.indeed.com/viewjob?jk=" + link_root
-                f.writerow([job_titles, company, location, posted_date, summary, link])
+                f.writerow([job_titles, company, location, posted_date, 
+                summary, link])
         
 
 def main():
@@ -79,6 +80,7 @@ def main():
     #j.getNumberOfPages()
     j.getPages()
     j.parsePages()
+    os.system('soffice ./Jobs.csv')
 
 if __name__ == "__main__":
     main()
